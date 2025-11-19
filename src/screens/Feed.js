@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import { ScrollView } from 'react-native';
-import { ListItem } from 'react-native-elements';
-import { Avatar } from 'react-native-elements/dist/avatar/Avatar';
+import { ListItem, Avatar } from '@rneui/themed';
 import { users } from '../config/data';
 
 class Feed extends Component {

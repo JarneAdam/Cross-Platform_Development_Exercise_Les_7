@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { View } from 'react-native';
-import { ListItem, Icon } from 'react-native-elements';
+import { ListItem, Icon } from '@rneui/themed';
 
 class Settings extends Component {
   render() {

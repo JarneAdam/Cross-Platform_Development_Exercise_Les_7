@@ -1,7 +1,8 @@
+import { Component } from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';
-import { Tile, ListItem, Button } from 'react-native-elements';
+import { Tile, ListItem, Button } from '@rneui/themed';
 import { me } from '../config/data';
-import Colors from '../themes/Colors';
+import Colors from '../constants/Colors';
 
 class Me extends Component {
   static defaultProps = { ...me };

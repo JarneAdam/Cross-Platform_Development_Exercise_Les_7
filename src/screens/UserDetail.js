@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
-import { Tile, ListItem } from 'react-native-elements';
-import Colors from '../themes/Colors';
+import { Tile, ListItem } from '@rneui/themed';
+import Colors from '../constants/Colors';
 
 class UserDetail extends Component {
   render() {
