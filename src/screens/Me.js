@@ -28,7 +28,7 @@ class Me extends Component {
           onPress={this.handleSettingsPress}
         />
         <View>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Email: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
@@ -36,7 +36,7 @@ class Me extends Component {
               </ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Phone: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
@@ -44,7 +44,7 @@ class Me extends Component {
               </ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Username: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
@@ -52,7 +52,7 @@ class Me extends Component {
               </ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Birthday: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
@@ -60,7 +60,7 @@ class Me extends Component {
               </ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>City: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>

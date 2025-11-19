@@ -14,7 +14,7 @@ class Feed extends Component {
         {users.map((user) => (
           <ListItem
             key={user.login.username}
-            bottomDivider
+            bottomDivider={true}
             onPress={() => this.onLearnMore(user)}
           >
             <Avatar source={{ uri: user.picture.thumbnail }} />

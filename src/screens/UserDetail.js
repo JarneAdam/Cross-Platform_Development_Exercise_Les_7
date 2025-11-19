@@ -18,19 +18,19 @@ class UserDetail extends Component {
           caption={email}
         />
         <View>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Email: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>{email}</ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Phone: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>{phone}</ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Username: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
@@ -38,13 +38,13 @@ class UserDetail extends Component {
               </ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>Birthday: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>{dob}</ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
-          <ListItem bottomDivider topDivider>
+          <ListItem bottomDivider={true} topDivider={true}>
             <ListItem.Content>
               <ListItem.Title style={title}>City: </ListItem.Title>
               <ListItem.Subtitle style={subtitle}>
