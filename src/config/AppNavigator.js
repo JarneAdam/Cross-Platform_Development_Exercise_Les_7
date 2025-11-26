@@ -37,7 +37,11 @@ export function RootNavigator() {
     <NavigationContainer>
       <RootStack.Navigator>
         <RootStack.Screen name='Tabs' component={TabNavigator} options={{ headerShown: false }} />
-        <RootStack.Screen name='Settings' component={Settings} />      
+        <RootStack.Screen 
+          name='Settings' 
+          component={Settings} 
+          options={{ presentation: 'modal' }}
+        />      
       </RootStack.Navigator>
     </NavigationContainer>
   )
